@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="28dp" android:background="@color/bg_dark">
+    <TextView android:text="FORCE CLOSE" android:textColor="@color/neon_red"
+        android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etNumberFc" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Nomor target"
+        android:inputType="phone" android:textColorHint="@color/neon_cyan"
+        android:textColor="@color/text_white" android:background="@drawable/bg_neon"
+        android:padding="16dp" android:layout_marginBottom="12dp"/>
+    <EditText android:id="@+id/etPayload" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Payload (kosongkan = default)"
+        android:textColorHint="@color/neon_cyan" android:textColor="@color/text_white"
+        android:background="@drawable/bg_neon" android:padding="16dp" android:layout_marginBottom="24dp"/>
+    <Button android:id="@+id/btnStartFc" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="KIRIM FC"
+        android:textStyle="bold" android:textColor="@color/text_white"
+        android:backgroundTint="@color/neon_red"/>
+</LinearLayout>

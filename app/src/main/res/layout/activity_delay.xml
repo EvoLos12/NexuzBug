@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="28dp" android:background="@color/bg_dark">
+    <TextView android:text="DELAY BUG" android:textColor="@color/neon_cyan"
+        android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etNumber" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Nomor (08xx / 62xx)"
+        android:inputType="phone" android:textColorHint="@color/neon_cyan"
+        android:textColor="@color/text_white" android:background="@drawable/bg_neon"
+        android:padding="16dp" android:layout_marginBottom="12dp"/>
+    <EditText android:id="@+id/etCount" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Jumlah kirim (default 20)"
+        android:inputType="number" android:textColorHint="@color/neon_cyan"
+        android:textColor="@color/text_white" android:background="@drawable/bg_neon"
+        android:padding="16dp" android:layout_marginBottom="24dp"/>
+    <Button android:id="@+id/btnStart" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="MULAI DELAY"
+        android:textStyle="bold" android:textColor="@color/bg_dark"
+        android:backgroundTint="@color/neon_cyan"/>
+</LinearLayout>
